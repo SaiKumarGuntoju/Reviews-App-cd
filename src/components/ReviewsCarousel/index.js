@@ -10,7 +10,7 @@ class ReviewsCarousel extends Component {
 
     return (
       <div>
-        <img src={imgUrl} alt={`${username} - avatar`} />
+        <img src={imgUrl} alt={`${username}-avatar`} />
         <p className="username">{username}</p>
         <p className="company">{companyName}</p>
         <p className="description">{description}</p>
@@ -50,7 +50,7 @@ class ReviewsCarousel extends Component {
           <button
             type="button"
             onClick={this.onClickLeftArrow}
-            testId="leftArrow"
+            testid="leftArrow"
             className="arrow-button"
           >
             <img
